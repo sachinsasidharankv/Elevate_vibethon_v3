@@ -64,7 +64,7 @@ Example:
 | Stack           | Tool/Service                     |
 |----------------|----------------------------------|
 | Frontend       | [Lovable](https://lovable.so) (AI Design-to-Code tool) |
-| Backend & DB   | [Supabase](https://supabase.com) (Edge functions & PostgreSQL) |
+| Backend & DB   | [Supabase](https://supabase.com) (Edge functions & PostgreSQL) | https://supabase.com/dashboard/project/aypnelqopfcdgbncxgyl/database/schemas
 | AI Integration | [OpenAI](https://openai.com) (LLM Agents) |
 
 ---
