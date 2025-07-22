@@ -1,0 +1,7 @@
+project_id = "aypnelqopfcdgbncxgyl"
+
+[functions.excel-ai-analyzer]
+verify_jwt = false
+
+[functions.plan-idp]
+verify_jwt = false
