@@ -1,73 +1,77 @@
-# Welcome to your Lovable project
+# 🚀 ELEVATE: AI-Powered Employee Development Plan Tool
 
-## Project info
+ELEVATE is a smart tool designed to **streamline and personalize employee growth** by leveraging AI to analyze performance appraisals and generate tailored Individual Development Plans (IDPs). It supports **Manager** and **Employee** roles, with each having a specific set of capabilities to facilitate a productive appraisal and planning cycle.
 
-**URL**: https://lovable.dev/projects/48f3ea11-72b5-44c0-a2b9-f8da84ee06f1
+---
 
-## How can I edit this code?
+## 🔑 Key Features
 
-There are several ways of editing your application.
+### 1. 👤 Manager Login & Team Overview
+- Managers can log in and view their direct reports.
+- Select any employee to view their profile and performance data.
 
-**Use Lovable**
+### 2. 📄 Profile View with Appraisal Data
+- Displays current and past appraisal sheets.
+- Pre-filled with performance metrics and feedback.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/48f3ea11-72b5-44c0-a2b9-f8da84ee06f1) and start prompting.
+### 3. ⚙️ AI-Powered Skill Set Generation
+- One-click "Generate Skill Set" button.
+- Analyzes current appraisal and past IDP using an LLM-based agent.
+- Suggests categorized skill sets:
+  - **Technical**
+  - **Functional**
+  - **Behavioral**
 
-Changes made via Lovable will be committed automatically to this repo.
+### 4. ✏️ Skill Set Customization
+- Managers can:
+  - Edit AI-suggested skills
+  - Add/remove skill items as needed
 
-**Use your preferred IDE**
+### 5. 📝 Development Plan Generation
+- After skill finalization, managers can generate a personalized development plan.
+- AI agent proposes:
+  - Learning resources (YouTube, Udemy, blogs)
+  - Timelines and milestones (6-month/12-month goals)
+  - Hands-on exercises or certifications
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 6. ✅ Plan Customization & Finalization
+- Managers can edit the proposed plan.
+- Once finalized, the plan is saved for the next review cycle.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 7. 🔔 Progress Notifications & Reminders (NEW)
+- Employees will receive timely **notifications** based on their progress.
+- Periodic **reminders** are sent to encourage plan completion within the review cycle.
+- Helps ensure accountability and on-time completion of development goals.
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🤖 AI-Driven Personalization
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Two LLM-based agents enhance the experience:
+- **Skill Identification Agent**: Extracts improvement areas from appraisal data.
+- **Plan Recommendation Agent**: Recommends learning plans based on selected skills.
 
-# Step 3: Install the necessary dependencies.
-npm i
+Example:
+> For the skill _"Expertise in DB Optimization"_, the system may suggest:
+> - A YouTube tutorial playlist  
+> - A Udemy certification  
+> - Practice tasks with deadlines
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## 🧰 Technologies Used
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+| Stack           | Tool/Service                     |
+|----------------|----------------------------------|
+| Frontend       | [Lovable](https://lovable.so) (AI Design-to-Code tool) |
+| Backend & DB   | [Supabase](https://supabase.com) (Edge functions & PostgreSQL) |
+| AI Integration | [OpenAI](https://openai.com) (LLM Agents) |
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/48f3ea11-72b5-44c0-a2b9-f8da84ee06f1) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+### Prerequisites
+- Node.js and npm
+- Supabase account & project
+- OpenAI API key
